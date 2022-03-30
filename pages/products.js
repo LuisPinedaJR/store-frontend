@@ -1,11 +1,11 @@
-import React from 'react'
+import Products from '../components/Products'
 
-function Products() {
+export default function OrderPage() {
   return (
     <div>
-      <h1>Products</h1>
+    <Products/>
     </div>
   )
 }
 
-export default Products
+
